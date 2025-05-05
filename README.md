@@ -19,3 +19,10 @@ python -m venv .venv
 ```shell
 pip install -r requirements.txt
 ```
+
+5. Podłączenie pod bazę danych Postgresql
+
+Wywołanie migracji (podstawowej)
+```shell
+python manage.py migrate
+```
