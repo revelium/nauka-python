@@ -23,6 +23,6 @@ pip install -r requirements.txt
 5. Podłączenie pod bazę danych Postgresql
 
 Wywołanie migracji (podstawowej)
-```shell
+```sh
 python manage.py migrate
 ```
