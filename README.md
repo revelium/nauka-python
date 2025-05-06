@@ -20,7 +20,12 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-5. Podłączenie pod bazę danych Postgresql
+5. Stworzenie bazy danych / podłączenie pod bazę danych Postgresql
+- stworzenie pliku .env
+- skopiowanie zawartości z pliku .env.example
+- wklejenie zawartości do pliku .env
+- uzupełnienie o dane lokalne (Twoje dane konfiguracyjne z postgres)
+
 
 Wywołanie migracji (podstawowej)
 ```sh
